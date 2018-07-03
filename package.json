@@ -1,0 +1,39 @@
+{
+  "name": "barmecide",
+  "version": "0.0.1",
+  "description": "A castle of fog; a mirage; \"superpowers for your Sails.js hooks.\" This library provides a set of features from the (rightfully) discontinued marlinspike, while adding safety features and resolving issues with Sails v1.",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fpm-git/barmecide.git"
+  },
+  "keywords": [
+    "sails",
+    "sails.js",
+    "hook",
+    "models",
+    "controllers"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fpm-git/barmecide/issues"
+  },
+  "homepage": "https://github.com/fpm-git/barmecide#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.0.1",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
+    "sails-hook-orm": "^2.0.1"
+  },
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "include-all": "^4.0.3",
+    "lodash": "^4.17.10",
+    "sails": "^1.0.2"
+  }
+}
