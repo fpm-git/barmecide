@@ -246,7 +246,7 @@ This hook was originally named with the following definitions in mind:
 > 
 > (noun) a person who offers benefits that are illusory or disappointing.
 
-Mostly, working with Marlinspike and Sails v0.12.14 had a hassle with circular and hook dependencies (though [gabagool](fpm-git/gabagool) did help alleviate this). With Sails v1, things got worse, to the point where important features were broken half the time–not cool.
+Mostly, working with Marlinspike and Sails v0.12.14 had a hassle with circular and hook dependencies (though [gabagool](https://github.com/fpm-git/gabagool) did help alleviate this). With Sails v1, things got worse, to the point where important features were broken half the time–not cool.
 
 Further, Marlinspike (and Sails to some extent) promote a few anti-patterns that make Yukis a little sad :scream: (though gabagool ~= happy).
 
