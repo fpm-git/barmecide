@@ -1,6 +1,6 @@
 {
   "name": "barmecide",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A castle of fog; a mirage; \"superpowers for your Sails.js hooks.\" This library provides a set of features from the (rightfully) discontinued marlinspike, while adding safety features and resolving issues with Sails v1.",
   "main": "lib/main.js",
   "scripts": {
