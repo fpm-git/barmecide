@@ -4,7 +4,9 @@
   "description": "A castle of fog; a mirage; \"superpowers for your Sails.js hooks.\" This library provides a set of features from the (rightfully) discontinued marlinspike, while adding safety features and resolving issues with Sails v1.",
   "main": "lib/main.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -34,6 +36,8 @@
     "ascii-table": "0.0.9",
     "include-all": "^4.0.3",
     "lodash": "^4.17.10",
-    "sails": "^1.0.2"
-  }
+    "sails": "^1.0.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
