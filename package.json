@@ -34,6 +34,6 @@
     "ascii-table": "0.0.9",
     "include-all": "^4.0.3",
     "lodash": "^4.17.10",
-    "sails": "^1.0.2"
+    "sails": "^1.5.3"
   }
 }
